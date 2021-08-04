@@ -12,7 +12,7 @@
 namespace CAI\Classes;
 
 // Security Note: Blocks direct access to the PHP files.
-defined( 'ABSPATH' ) || die;
+\defined( 'ABSPATH' ) || die;
 
 require_once \CAI_PATH . 'classes/class-getattachments.php';
 
@@ -49,8 +49,10 @@ class GenerateAltText {
 
 			endif;
 
-			// Set the image Alt-Text.
-			\update_post_meta( $media_id, '_wp_attachment_image_alt', $alt_text ? $alt_text : 'alt-text' );
+			// If don't exist the image alt-text, it sets here.
+			if ( \strlen( \get_post_meta( $media_id, '_wp_attachment_image_alt', true ) ) === 0 ) :
+				\update_post_meta( $media_id, '_wp_attachment_image_alt', $alt_text ? $alt_text : 'alt-text' );
+			endif;
 
 			\wp_update_post(
 				array(
