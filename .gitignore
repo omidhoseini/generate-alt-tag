@@ -21,3 +21,8 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# ignore IDE config files and standard coding files
+.vscode
+.idea
+.php-cs-fixer.cache
