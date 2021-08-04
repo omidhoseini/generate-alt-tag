@@ -19,10 +19,10 @@
  */
 
 // Security Note: Blocks direct access to the PHP files.
-defined( 'ABSPATH' ) || die;
+\defined( 'ABSPATH' ) || die;
 
 // Define plugin path.
-define( 'CAI_PATH', plugin_dir_path( __FILE__ ) );
+\define( 'CAI_PATH', \plugin_dir_path( __FILE__ ) );
 
 use CAI\Classes\GenerateAltText;
 
