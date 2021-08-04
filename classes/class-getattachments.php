@@ -12,7 +12,7 @@
 namespace CAI\Classes;
 
 // Security Note: Blocks direct access to the PHP files.
-defined( 'ABSPATH' ) || die;
+\defined( 'ABSPATH' ) || die;
 
 /**
  * GetAttachments class
@@ -20,7 +20,7 @@ defined( 'ABSPATH' ) || die;
 class GetAttachments {
 
 	/**
-	 * The om_get_images_ids function
+	 * The om_get_attachments_ids function
 	 *
 	 * @return array
 	 */
@@ -34,9 +34,9 @@ class GetAttachments {
 		);
 
 		// Get all attachments.
-		$attachments = get_posts( $args );
+		$attachments = \get_posts( $args );
 
-		// Create an array of products id.
+		// Create an array of attachments ids.
 		foreach ( $attachments as $attachment ) :
 			$images_ids [] = $attachment->ID;
 		endforeach;
