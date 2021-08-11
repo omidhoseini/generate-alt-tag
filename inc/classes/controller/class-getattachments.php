@@ -2,14 +2,14 @@
 /**
  * GetAttachments File
  *
- * @package    generate-alt-text
+ * @package    generate-alt-tag
  * @category   class
  * @author     BRPCreative
  * @since      1.0.0
  * @copyright  Copyright (c) 2021, BRPCreative.
  */
 
-namespace CAI\Classes;
+namespace GAT\Inc\Classes\Controller;
 
 // Security Note: Blocks direct access to the PHP files.
 \defined( 'ABSPATH' ) || die;
@@ -20,11 +20,11 @@ namespace CAI\Classes;
 class GetAttachments {
 
 	/**
-	 * The om_get_attachments_ids function
+	 * The gat__get_attachments_ids function
 	 *
 	 * @return array
 	 */
-	public static function om_get_attachments_ids() {
+	public static function gat__get_attachments_ids() {
 
 		$images_ids = array();
 
