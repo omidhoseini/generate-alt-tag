@@ -1,2 +1,4 @@
+inc/dist/* linguist-vendored
+inc/src/* linguist-vendored
 *.html linguist-detectable=false
 *.css linguist-detectable=false
