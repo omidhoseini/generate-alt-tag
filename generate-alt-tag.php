@@ -1,23 +1,28 @@
 <?php
 /**
- * Plugin Name:       Generate Alt Tag
- * Plugin URI:        https://brpcreative.com.au
- * Description:       This plugin generate "ALT TAG" image from image filename automatically.
- * Version:           1.1.1
- * Requires at least: 5.7
- * Requires PHP:      5.6
- * Author:            BRPCreative
- * Author URI:        https://brpcreative.com.au
- * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       generate-alt-tag
- * Domain Path:       /languages
+ * Generate Alt Tag
  *
- * @package   generate-alt-tag
+ * @package   GenerateAltTag
  * @category  plugin
  * @link      https://github.com/omidhoseini/create-alt-image
  * @author    BRPCreative
- * @license   GPL v2 or later
  * @copyright Copyright (c) 2021, BRPCreative.
+ * @license   GPL v2 or later
+ *
+ * @wordpress-plugin
+ * Plugin Name:       Generate Alt Tag
+ * Plugin URI:        https://github.com/omidhoseini/generate-alt-tag
+ * Description:       This plugin generate "ALT TAG" image from image filename automatically.
+ * Version:           1.2.1
+ * Requires at least: 5.8
+ * Requires PHP:      5.6
+ * Author:            BRPCreative
+ * Author URI:        https://brpcreative.com.au
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Update URI:        https://github.com/omidhoseini/generate-alt-tag
+ * Text Domain:       generate-alt-tag
+ * Domain Path:       /lang
  */
 
 use GAT\Inc\Classes\GATRegister;
