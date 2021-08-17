@@ -1,15 +1,13 @@
-# Generate Alt Tag
+# Generate Alt Tag (GAT)
 
-Contributors: webbmakerr
-Tags: image, alt, product, woocommerce, wordpress
-Requires at least: 1.0
-Stable tag: 1.0
-License: GPLv2 or later
-Tested up to: 5.7
-Requires PHP: 5.6
+[![Latest Stable Version](https://img.shields.io/static/v1?label=version&message=v1.2.1&color=success&style=for-the-badge&logo=verizon)](https://github.com/wm-wp-development/wp-plugin-starter)
+[![GPLv2 Licensed](https://img.shields.io/static/v1?label=licensed&message=GPLv2&color=informational&style=for-the-badge&logo=gnu)](LICENSE)
 
-Generate-Alt-Tag is the tools for generate "alt-text" of image automatically.
+* Contributors: webbmakerr
+* Tags: plugin, development, wordpress
+* Tested up to: 5.8
+* Requires PHP: 5.6
 
 ## Description
 
-This plugin generates automatic "alt-text" of image from image filename.
+This plugin generates "alt-text" of image from image filename automatically.
